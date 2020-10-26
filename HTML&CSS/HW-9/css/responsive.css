@@ -1,0 +1,297 @@
+@media (max-width: 768px) {
+    header {
+        background-color: #F4F6F9;
+        background-size: 100%;
+    }
+    .phones {
+        display: none;
+    }
+    .logo {
+        justify-content: center ;
+        align-items: center ;
+        padding-left: 0;
+    }
+    .logo_text {
+        padding-right: 0;
+    }
+    .title {
+        margin-left: 4%;
+        margin-top: 86px;
+        margin-right: 4%; 
+    }
+    .first_title {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .p_first {
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .btn {
+        margin-bottom: 60px;
+        justify-content: center;
+    }
+    .name_app {
+        font-size: 19.8868px;
+        line-height: 23px;
+    }
+    .download {
+        font-weight: 400;
+        font-size: 9.34901px;
+        line-height: 11px;
+    }
+    .play {
+        font-size: 16.4581px;
+        line-height: 19px;
+    }
+    .what_it_does {
+  
+        flex-direction: column-reverse;
+    }
+    #background {
+        width: 100%;
+        height: 360px;
+        background-position: center;
+        background: rgb(255,255,255);
+        background: linear-gradient(182deg, rgba(255,255,255,1) 5%, rgba(115,231,255,0) 87%, rgba(0,212,255,0.05) 100%),
+        url("../img/football_playes.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .match {
+        background: #FFFFFF;
+        border-radius: 4px;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 4%;
+        z-index: 1;
+    }
+    .match_about {
+        display: flex;
+        padding-top: 18px;
+        padding-left: 10px;
+    }
+    .p_time {
+        font-size: 11.5188px;
+        line-height: 15px; 
+    }
+    .p_name_teams {
+        font-size: 12.3539px;
+        line-height: 16px;
+        max-width: 52px;
+        padding-top: 8px;
+    }
+    .p_match {
+        font-size: 10.9812px;
+        line-height: 14px;
+        padding-top: 9px;
+    }
+    .chelsea {
+        position: absolute;
+        margin-left: -14px;
+    }
+    .arsenal {
+        padding-left: 10px;
+    }
+    .but{
+        font-size: 12.9587px;
+        line-height: 17px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        margin-top: 16px;
+        border-radius: 4px;
+    }
+    .img_after {
+        width: 247.21px;
+        height: 149.58px;
+        margin-left: 27%;
+        margin-top: 195px;
+    }
+    .content_text {
+        padding-top: 62px;
+        width: auto;
+        text-align: center;
+    }
+    h4{
+        padding-bottom: 15px;
+    }
+    .first_paragraph,
+    .second_paragraph {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cont_text3 {
+        padding-left: 0;
+    }
+    .get_started {
+        background-image: none;
+        height: auto;
+    }
+    h2 {
+        justify-content: center;
+    }
+    .bg_responsive {
+        display: block;
+        width: 100%;
+        background-image: url("../img/bg-phone.png");
+        background-repeat: no-repeat;
+    } 
+    .img_responsive {
+        width: 90%;
+        margin-top: 5%;
+        position: relative;
+    }
+    .bell_basket {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        z-index: 1;
+        box-shadow: 0px 1.98153px 4.95382px rgba(51, 51, 51, 0.1), 0px 2.47691px 12.3845px rgba(0, 0, 0, 0.25);
+    }
+    .bell {
+        margin-top: -150%;
+        margin-left: 10%;
+    }
+    .basket {
+        margin-top: -69%;
+        margin-left: 70%;
+    }
+    .img_bell {
+        padding-top: 23%;
+        padding-left: 27%;
+    }
+    .img_card {
+        padding-top: 33%;
+        padding-left: 27%;
+    }
+    .circle_num1 {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00ADEE;
+        font-weight: 500;
+        font-size: 11.8892px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: -59%;
+        margin-left: 55%;
+        padding-left: 4px;
+        padding-top: 1px;
+        padding-bottom: 3px;
+        padding-right: 1px;
+    }
+    .green {
+        background-color: #40B756;
+        margin-top: -50%;
+    }
+    .bg_img {
+        width: 100%;
+    }
+    .features {
+        background: #FAFAFA;
+        height: auto;
+    }
+    .icon {
+        fill: #00ADEE;
+    }
+    .features_p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #4F4F4F;
+    }
+    .text_features {
+        padding-top: 42px;
+        padding-left: 21px;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        color: #333333;
+    }
+    .splide__arrow--prev {
+        left: 0.2em;
+    }
+    .splide__arrow--next {
+        right: 0.2em;
+    }
+    .title_review {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .tile_companies {
+        font-size: 28px;
+        line-height: 37px;
+        justify-content: center;
+    }
+    .menu_companies {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .menu_companies li {
+        padding-bottom: 10px;
+    }
+    /*
+    .menu_companies li:nth-child(2){
+        padding-left: 65px;
+    }; */
+    .content_features {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .content_features div {
+        text-align: center;
+    }
+    .tile_companies {
+        padding-left: 0;
+    }
+    .your_team {
+        flex-direction: column-reverse;
+    }
+    .background_last {
+        width: auto;
+    }
+    .p_last {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 28px;
+    }
+    .social_message {
+        padding-left: 0;
+    }
+    footer {
+        flex-direction: column;
+        padding-left: 25px;
+    }
+    .logo_footer {
+        padding-left: 0;
+        padding-bottom: 11px;
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-left: 0;
+    }
+    .functions {
+        display: flex;
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+    .menu li+li {
+        padding-left: 19px;
+    }
+    .social_message {
+        padding-bottom: 34px;
+        width: 100%;
+    }
+}

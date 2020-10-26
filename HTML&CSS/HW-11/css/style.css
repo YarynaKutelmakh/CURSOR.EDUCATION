@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(233, 232, 232);
+}
+.first_div {
+    background-color: #3a3939;
+    width: 160px;
+    height: 115px;
+    margin-left: 650px;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-left: 30px;
+    position: relative;
+}
+.first_sward,
+.second_sward,
+.third_sward {
+    display: flex;
+    margin-bottom: 30px;
+}
+.long,
+.long2,
+.long3 {
+    width: 100px;
+    height: 5px;
+    background-color: #ffffff;
+}
+.short2 {
+    width: 20px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+.short1,
+.short3 {
+    width: 20px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+.first_div:hover .first_sward {
+    opacity: 0;
+    transition: opacity 1s;
+}
+.first_div:hover .second_sward {
+    animation: animation_1 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.first_div:hover .long2 {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 25px 5px rgba(255, 0, 0, 0.75);
+}
+.first_div:hover .short2 {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 25px 5px rgba(255, 0, 0, 0.75);
+}
+.first_div:hover .third_sward {
+    animation: animation_2 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.first_div:hover .long3 {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 25px 5px rgba(0, 128, 0, 0.75);
+}
+.first_div:hover .short3 {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 25px 5px rgba(0, 128, 0, 0.75);
+}
+@keyframes animation_1 {
+    0% {transform: rotate(0deg); }
+    100% {transform: rotate(40deg) translate(1em, 1em); }
+}
+@keyframes animation_2 {
+    0% {transform: rotate(0deg); }
+    100% {transform: rotate(-40deg) translate(1em, -2em); }
+}
+.second_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(18, 201, 155);
+    border-radius: 50%;
+    
+}
+.first{
+    position: relative;
+    animation-name: example-1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+
+}
+@keyframes example-1{
+    0%, 50% {transform: rotate(0);}
+    100% {transform: rotate(35deg) translateX(-3em);}
+}
+.seventh {
+    position: relative;
+    animation-name: example-2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay: -3s;
+}
+@keyframes example-2{
+    0%, 50% {transform: rotate(0) translateX(0);}
+    100% {transform: rotate(-35deg) translateX(3em);}
+}

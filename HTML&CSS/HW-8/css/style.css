@@ -1,0 +1,302 @@
+body{
+    max-width: 1600px;
+}
+a{
+    text-decoration: none;
+}
+/*---------HEADINGS----------*/
+h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 57px;
+    color: #000000;
+}
+h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+h3,
+.menu2 a:hover{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+h4{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 102px;
+    color: #FFFFFF;
+}
+/*---------PARAGRAPHS----------*/
+p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+/*---------BUTTONS----------*/
+button{
+    background: #000000;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 23px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 34px;
+    padding-right: 33px;
+
+}
+button:focus{
+    outline: none;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/*------------------------------------------*/
+/*NAVIGATION*/
+/*------------------------------------------*/
+nav{
+    background: #000000;
+    border-radius: 24px;
+    max-width: 132px;
+    margin-left: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.6);
+    height: 852px;
+}
+.menu li{
+    padding-left: 53px;
+    padding-bottom: 63px;
+}
+.menu li:first-child{
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 15px;
+    padding-bottom: 64px;
+}
+.menu li:last-child{
+    padding-top: 135px;
+}
+/*------------------------------------------*/
+/*SECTION_1*/
+/*------------------------------------------*/
+.text_1{
+    background: #F5F5F7;
+    border-radius: 14px;
+    position: relative;
+    margin-top: 55px;
+    padding-top: 46px;
+    padding-left: 31px;
+    padding-bottom: 40px;
+    width: 585px;
+}
+.person{
+    position: absolute;
+    margin-top: -151px;
+    margin-left: 309px;
+}
+.second_block{
+    display: flex;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: auto;
+}
+.logotype{
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 8.5px;
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 64px;
+    height: 64px;
+}
+.img_logotype{
+    padding: 16px;
+}
+.text{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 24px;
+}
+.h3{
+    color: #000000;
+}
+.procent{
+    padding-top: 22px;
+    padding-bottom: 18px;
+    padding-left: 45px;
+    padding-right: 40px;
+}
+.pr{
+    padding-top: 35px;
+    margin-left: -71px;
+    padding-right: 43px;
+}
+.btn_slider{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.left{
+    padding-right: 15px;
+}
+.menu2 li{
+    display: inline;
+}
+.menu2 li+li {
+    padding-left: 30px;
+}
+.menu2 a{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(185, 185, 185);
+    margin-bottom: -6px;
+}
+.figma,
+.analog,
+.instagram,
+.drawing,
+.photoshop{
+    display: grid;
+    grid-template-columns: 12% 33% 18% 10% auto;
+    width: 620px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin-top: 16px;
+}
+.img_logotype.figma_im{
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.clock,
+.fire{
+    display: flex;
+}
+.img_clock,
+.img_fire{
+    padding-top: 32.5px;
+    padding-bottom: 31.5px;
+    padding-right: 6px;
+}
+.hour{
+    padding-top: 34px;
+    padding-bottom: 30px;
+} 
+/*------------------------------------------*/
+/*SECTION_3*/
+/*------------------------------------------*/
+.information{
+    display: flex;
+    margin-top: 55px;
+}
+input{
+    background: #F5F5F7;
+    border-radius: 8px;
+    width: 300px;
+    border: none;
+    margin-right: 35px;
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.bell{
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+.cal{
+    display: flex;
+}
+.calendar{
+    display: flex;
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: 208px;
+    margin-top: 23px;
+    margin-right: 27px;
+    margin-bottom: 40px;
+}
+.number{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 102px;
+    color: #000000;
+    padding-left: 35px;
+}
+.about_cours{
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    padding-left: 11px;
+    width: 76px;
+}
+.btn{
+    background: #F5F5F7;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 70px;
+}
+.img_down{
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.more{
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin-top: 50px;
+    display: flex;
+    width: 440px;
+    height: 180px;
+}
+.img_book{
+    padding-top: 35px;
+    padding-right: 48px;
+    padding-bottom: 30px;
+    padding-left: 67px;
+}
+.p_text{
+    width: 179px;
+    padding-bottom: 11px;
+}

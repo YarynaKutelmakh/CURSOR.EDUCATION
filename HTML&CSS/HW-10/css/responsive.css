@@ -1,0 +1,108 @@
+@media (max-width: 1024px) {
+    .container {
+        margin-left: 70px;
+    }
+    .navbar-nav {
+        margin-left: 9rem;
+    }
+    input {
+        margin-left: 13rem;
+    }
+    .posts{
+        margin-left: 35px;
+    }
+    .options {
+        margin-left: -50px;
+    }
+    
+}
+@media (max-width: 993px) {
+    .logo {
+        margin-left: -90px;
+        width: 125px;
+        height: 125px;
+    }
+    .history {
+        margin-left: -90px;
+    }
+    .place_post {
+        margin-left: -137px;
+    }
+    .container {
+        margin-left: 13%;
+    }
+    .options {
+        margin-left: -25%;
+    }
+    .about {
+        margin-top: 31px;
+        margin-right: -60px;
+
+    }
+    input {
+        margin-left: 6rem;
+    }
+    .navbar-nav {
+        margin-left: 4rem;
+    }
+    .inst {
+        margin-left: -25px;
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        margin-left: 7%;
+    }
+    .place_post {
+        margin-left: -62px;
+    }
+    .about {
+        margin-left: -27px;
+    }
+    .inp {
+        display: none;
+    }
+    .options {
+        margin-left: -40%;
+    }
+}
+@media (max-width: 380px) {
+    .options {
+        margin-left: -45%;
+    }
+    .place_post {
+        row-gap: 15px;
+        margin-left: -80px;   
+    }
+    .history {
+        margin-left: -109px;
+    }
+    .navbar-nav {
+        margin-left: 2.5rem;
+    }
+}
+@media (max-width: 320px) {
+    .posts {
+        width: 330px;
+        height: 330px;
+    }
+    .history {
+        margin-left: -109px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .navbar-nav {
+        margin-left: 0.1%;
+    }
+    .btn_follow {
+        margin-left: 15px;
+    }
+    button {
+        margin-right: 5px;
+    }
+    .place_post {
+        row-gap: 15px;
+        margin-left: -88px;
+    }
+}

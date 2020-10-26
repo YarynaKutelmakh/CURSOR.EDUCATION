@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.container{
+    max-width: 40%;
+    margin: 70px auto;
+}
+table{
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid rgb(126, 124, 124);
+    border-radius: 4px;
+    border-spacing: 0; 
+}
+th, td {
+    padding: 13px;
+    text-align: left;
+    border-bottom: 1px solid rgb(126, 124, 124); 
+}
+.first__td,
+.second__td,
+.third__tb{
+    padding-bottom: 30px;
+    color: rgb(230, 227, 227);
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+.first__column{
+    width: 45%;
+}
+.second__column{
+    color:  rgb(126, 124, 124);
+    width: 45%;
+} 
+.third__column{
+    width: 10%;
+    padding-left: 30px;
+}
+.found{
+    width: 10%;
+    position: relative;
+} 
+.search{
+    position: absolute; 
+    margin-right: 7px;
+    top: 6px;
+    height: 25px;
+
+    right: 0;
+    border-radius: 4px;
+    background-color: rgb(73, 73, 73);
+    outline: none;
+    font-size: 12px;
+    border: none;
+} 
+.foulder:before{
+    content: "\f115";
+    font-family: 'icomoon';
+    color: blue;
+    padding-right: 7px;
+}
+.icon-sort-desc{
+    padding-left: 8px;
+
+}
+.box{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.third__column.first__table{
+    color:  rgb(126, 124, 124);
+}

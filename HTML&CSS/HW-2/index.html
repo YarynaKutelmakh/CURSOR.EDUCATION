@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Прізвище</th>
+                    <th>Телефон</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Кук</td>
+                    <td>Максим</td>
+                    <td>380976547064</td>
+                    <td>max.kuk@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Марія</td>
+                    <td>Чигирин</td>
+                    <td>380659462506</td>
+                    <td>mariia_ch@ukr.net</td>
+                </tr>
+                <tr>
+                    <td>Еріка</td>
+                    <td>Островська</td>
+                    <td>380734285569</td>
+                    <td>ostrovska@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Владислав</td>
+                    <td>Наконечний</td>
+                    <td>380677428551</td>
+                    <td>vlad.nak@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+<br />
+        <form>
+            Ім'я:  
+            <input type="text" placeholder="Введіть Ваше ім'я" /> 
+            Прізвище:
+            <input type="text" placeholder="Введіть Ваше прізвище" /><br />
+            Ваша стать: 
+            <input type="radio" name="gender" />Чоловік
+            <input type="radio" name="gender" checked />Жінка <br />
+            <textarea cols="30" rows="10" placeholder="Напишіть Ваше питання"></textarea><br />
+            <select>
+                <option disabled="disabled" selected="selected">Виберіть місто</option>
+                <option>Львів</option>
+                <option>Київ</option>
+                <option>Дніпро</option>
+                <option>Івано-Франківськ</option>
+            </select><br />
+            Вибір мови<br />
+            <input type="checkbox" name="language" checked />Українська<br />
+            <input type="checkbox" name="language" />Англійська<br />
+            <input type="checkbox" name="language" />Російська<br />
+            <input type="submit" />
+        </form>
+        
+    </div>
+</body>
+</html>

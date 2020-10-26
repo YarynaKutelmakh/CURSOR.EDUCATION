@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    grid-template-columns: 52px 52px 52px 52px;
+    max-width: 20px;
+    margin-bottom: 5%;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.block:nth-child(4n+3){
+    background-color: red;
+}
+.block:nth-child(24),
+.block:nth-child(22),
+.block:nth-child(21){
+    background-color: blue;
+}
+ .btn{
+    width: 494px;
+    height: 92px;
+    background: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-left: 33%;
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-top: 2px solid  #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+
+    margin-top: 9px;
+    margin-left: 190px;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-top: 2px solid  #C4C4C4;
+    border-bottom: 2px solid  #C4C4C4;
+    margin-top: 9px;
+    margin-left: -390px;
+}
+button:focus{
+    outline: none;
+}
