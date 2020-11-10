@@ -90,7 +90,7 @@ There are all homeworks of the course
   <tr>
     <td>14</td>
     <td>Кросбраузерність та оптимізація</td>
-    <td><a href="#">Page</a></td>
-    <td><a href="#">Folder</a></td>
+    <td><a href="https://yarynakutelmakh.github.io/CURSOR.EDUCATION/HTML&CSS/HW-14/">Page</a></td>
+    <td><a href="https://github.com/YarynaKutelmakh/CURSOR.EDUCATION/tree/main/HTML&CSS/HW-14">Folder</a></td>
   </tr>
  </table>
