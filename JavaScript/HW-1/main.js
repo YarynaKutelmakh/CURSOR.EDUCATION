@@ -8,7 +8,7 @@ let  sum = chocolate + book + tea,
      sale = (Math.random() * 101).toFixed(0),
      sumToPay = (sum - (sum / 100 * sale)).toFixed(2),
      cost = sum / 2,
-     profit = cost - sumToPay;
+     profit = cost - (sum - sumToPay);
 
 console.log(Math.max(chocolate, book, tea));
 console.log(Math.min(chocolate, book, tea));
