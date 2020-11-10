@@ -18,9 +18,9 @@ console.log(Math.ceil(sumFloat / 100) * 100);
 
 let evenOrOdd;
 if (sumFloat % 2) {
-    evenOrOdd = true;
-} else {
     evenOrOdd = false;
+} else {
+    evenOrOdd = true;
 }
 
 console.log(cashCustomer - sum);
