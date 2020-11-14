@@ -1,0 +1,49 @@
+@media (max-width: 977px) {
+    button {
+        margin-left: 38%;
+    }
+}
+@media (max-width: 700px) {
+    button {
+        margin-left: 35%;
+    }
+}
+@media (max-width: 530px) {
+    button {
+        margin-left: 26%;
+    }
+    input {
+        font-size: 18px;
+    }
+}
+@media (max-width: 475px) {
+    button {
+        margin-left: 27%;
+        font-size: 15px;
+        padding: 3px 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 376px) {
+    button {
+        font-size: 12px;
+        padding: 3px 15px;
+    }
+    input {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+}
