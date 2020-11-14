@@ -1,12 +1,12 @@
 const warning = alert('Увага! Програма все конвертує в цілі числа.');
 
-let isOdd;
+let isEven;
 document.getElementById('btn').onclick = () => {
     const firstNumber = parseInt(document.getElementById('first-number').value);
     const secondNumber = parseInt(document.getElementById('second-number').value);
     let sum = 0;
     for (let i = firstNumber; i <= secondNumber; i++) {
-        if (isOdd) {
+        if (isEven) {
             if (i % 2 === 0) {
                 continue;
             }
