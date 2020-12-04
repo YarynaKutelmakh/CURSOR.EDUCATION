@@ -1,26 +1,26 @@
 function getAverage(...numbers) {
-    const isEven = [];
+    const evenNumbers = [];
     const total = numbers.reduce((total, number) => {
         if(number % 2 === 0) {
-            isEven.push(number);
+            evenNumbers.push(number);
             return total + number;
         }
         else 
             return total + 0
     }, 0)
-    const average = total / isEven.length;
+    const average = total / evenNumbers.length;
     return +average.toFixed(2)
 }
 const averageNumber = getAverage(7, 6, 9, 2);
 console.log(averageNumber);
 
 function filterEvenNumbers(...numbers) {
-    const isOdd = [];
+    const oddNumbers = [];
     numbers.map((number) => {
         if(number % 2 !== 0) 
-            isOdd.push(number);  
+        oddNumbers.push(number);  
     })
-    return isOdd;  
+    return oddNumbers;  
 }
 const oddNum = filterEvenNumbers(1, 8, 5, 2, 3, 5, 8, 1, 4);
 console.log(oddNum);
@@ -37,14 +37,9 @@ const dividedByFive = getDividedByFive(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 
 console.log(dividedByFive)
 
 function countPositiveNumbers(...numbers) {
-    let counter = 0;
-    numbers.map((number) => {
-        if(number > 0)
-            counter++
-    })
-    return counter
+    return (numbers.filter((number) =>number > 0)).length
 }
-const positiveNumbers = countPositiveNumbers(1, -2, 3, -4, -5, 6);
+const positiveNumbers = countPositiveNumbers(1, -2, 3, -4, -5, 6,);
 console.log(positiveNumbers);
 
 function replaceBadWords(string, badWord) {
