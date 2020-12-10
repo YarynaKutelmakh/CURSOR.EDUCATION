@@ -16,7 +16,7 @@ const litva = {
 };
 
 function getMyTaxes(salary) {
-    return salary / 100 * (this.tax * 100) 
+    return salary * this.tax
 }
 function getMiddleTaxes() {
     return parseInt(this.tax * this.middleSalary)
@@ -28,7 +28,7 @@ function getMySalary() {
     const minNumber = 1500;
     const maxNumber = 2000;
     let salary = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
-    let profit = parseInt(salary - (salary * (this.tax * 100) / 100));
+    let profit = parseInt(salary - (salary * this.tax));
     console.log({salary: salary, taxes: this.tax, profit: profit});
 }
 
