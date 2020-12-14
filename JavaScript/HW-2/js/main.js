@@ -1,11 +1,11 @@
-const warning = alert('Увага! Програма все конвертує в цілі числа.');
+const WARNING = alert('Увага! Програма все конвертує в цілі числа.');
 
 let isEven;
 document.getElementById('btn').onclick = () => {
-    const firstNumber = parseInt(document.getElementById('first-number').value);
-    const secondNumber = parseInt(document.getElementById('second-number').value);
+    const FIRST_NUMBER = parseInt(document.getElementById('first-number').value);
+    const SECOND_NUMBER = parseInt(document.getElementById('second-number').value);
     let sum = 0;
-    for (let i = firstNumber; i <= secondNumber; i++) {
+    for (let i = FIRST_NUMBER; i <= SECOND_NUMBER; i++) {
         if (isEven) {
             if (i % 2 === 0) {
                 continue;

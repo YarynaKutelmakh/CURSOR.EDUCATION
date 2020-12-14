@@ -57,3 +57,4 @@ function formatName(name) {
 }
 const name = formatName('mAX');
 console.log(name);
+
