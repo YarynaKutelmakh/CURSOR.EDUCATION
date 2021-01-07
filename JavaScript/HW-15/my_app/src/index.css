@@ -1,0 +1,45 @@
+body {
+  color: #ffffff;
+  background-color:rgb(54, 54, 66);
+  font-family: 'Lato', sans-serif;
+}
+
+.postContent {
+  background-color: rgb(19, 19, 32);
+  width: 700px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 12% 1fr;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.ava {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.contentText {
+  display: flex;
+}
+
+.nickName,
+.date {
+  padding-left: 7px;
+  color: rgb(173, 173, 173);
+}
+
+.name {
+  font-weight: 700;
+}
+
+.content {
+  margin-top: -12px;
+}
+
+.image {
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+}
